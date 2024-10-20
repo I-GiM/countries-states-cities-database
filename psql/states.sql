@@ -16,10 +16,10 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
-ALTER TABLE ONLY public.states DROP CONSTRAINT states_country_id_fkey;
-DROP INDEX public.states_country_id_idx;
-ALTER TABLE ONLY public.states DROP CONSTRAINT states_pkey;
-DROP TABLE public.states;
+-- ALTER TABLE ONLY public.states DROP CONSTRAINT states_country_id_fkey;
+-- DROP INDEX public.states_country_id_idx;
+-- ALTER TABLE ONLY public.states DROP CONSTRAINT states_pkey;
+-- DROP TABLE public.states;
 SET default_tablespace = '';
 
 SET default_table_access_method = heap;
