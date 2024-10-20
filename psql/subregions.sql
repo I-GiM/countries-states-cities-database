@@ -16,10 +16,10 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
-ALTER TABLE ONLY public.subregions DROP CONSTRAINT subregions_region_id_fkey;
-DROP INDEX public.subregions_region_id_idx;
-ALTER TABLE ONLY public.subregions DROP CONSTRAINT subregions_pkey;
-DROP TABLE public.subregions;
+-- ALTER TABLE ONLY public.subregions DROP CONSTRAINT subregions_region_id_fkey;
+-- DROP INDEX public.subregions_region_id_idx;
+-- ALTER TABLE ONLY public.subregions DROP CONSTRAINT subregions_pkey;
+-- DROP TABLE public.subregions;
 SET default_tablespace = '';
 
 SET default_table_access_method = heap;
