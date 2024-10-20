@@ -16,8 +16,8 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
-ALTER TABLE ONLY public.regions DROP CONSTRAINT regions_pkey;
-DROP TABLE public.regions;
+-- ALTER TABLE ONLY public.regions DROP CONSTRAINT regions_pkey;
+-- DROP TABLE public.regions;
 SET default_tablespace = '';
 
 SET default_table_access_method = heap;
